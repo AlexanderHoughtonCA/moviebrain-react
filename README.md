@@ -1,6 +1,10 @@
 # MovieBrain (Frontend)
 
-MovieBrain is a React-based website for browsing and discovering movies.  
+MovieBrain is a React-based website for browsing and discovering movies. 
+It is designed to work with the microservices backend here:  
+[MovieBrain Backend](https://github.com/AlexanderHoughtonCA/moviebrain/tree/main)
+
+
 It provides a responsive interface for searching, viewing details, and exploring cast and crew information, all powered by movie data services connected through the API gateway.
 
 ## Features
@@ -13,12 +17,16 @@ It provides a responsive interface for searching, viewing details, and exploring
 - **Profile View** — see user information and activity
 - **Responsive Design** — optimized for desktop and mobile
 
+## Coming Soon
+- **Ratings**
+- **Reviews**
+- **AI-powered recommendations**
+
 ## Tech Stack
 
 - **React 18** with functional components and hooks
 - **React Router** for navigation
 - **React-Bootstrap** for UI components (Navbar, Layout helpers, Forms, Buttons)
-- **Custom CSS** for theming
 - **JWT Authentication** stored in localStorage
 
 ## Getting Started
