@@ -7,6 +7,9 @@ It is designed to work with the microservices backend here:
 
 It provides a responsive interface for searching, viewing details, and exploring cast and crew information, all powered by movie data services connected through the API gateway.
 
+## Demo
+[Movie Brain Live DEMO](https://movie-brain.com/)
+
 ## Features
 
 - **Search Movies** — find movies by title and browse results
