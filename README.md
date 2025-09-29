@@ -57,6 +57,13 @@ It provides a responsive interface for searching, viewing details, and exploring
 
 The site will be available at `http://localhost:3000`.
 
+## Known Issues
+- Page loads are typically under a second, but I'd like to improve that. API and image caching should hlep once they're implemented
+- Largest Contentful Paint can sometimes be up to 0.68 seconds or more, room for improvement there
+- Cumulative Layout Shift varies from 0.05 to 0.12 or so, needs fixing ASAP as it's annoying me now
+- I'm not terribly happy with the overall look of the site, will improve ASAP
+- There are still responsive/layout to fix on mobile and tablet.
+
 ## Roadmap
 
 - Improve mobile responsiveness
